@@ -1,5 +1,3 @@
-const Home = ()=>(
-    <h1>This is home page</h1>
-)
+const Home = () => <h1>This is home page</h1>;
 
-export default Home
+export default Home;

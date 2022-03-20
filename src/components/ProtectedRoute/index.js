@@ -1,11 +1,8 @@
-import { Navigate, Outlet } from "react-router-dom"
-import Cookies from "js-cookie"
+import { Navigate, Outlet } from "react-router-dom";
 
-const ProtectedRoute = ()=>{
-    const token = Cookies.get("jwt_token")
-    return (
-        token ? <Outlet /> : <Navigate to="/login" />
-    )
-}
+const ProtectedRoute = () => {
+  const isUserLogin = localStorage.getItem("isLogin");
+  return isUserLogin ? <Outlet /> : <Navigate to="/login" />;
+};
 
-export default ProtectedRoute
+export default ProtectedRoute;
