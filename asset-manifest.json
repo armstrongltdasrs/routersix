@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/routersix/static/css/main.c15cbaa5.css",
+    "main.js": "/routersix/static/js/main.f0f5207d.js",
+    "index.html": "/routersix/index.html",
+    "main.c15cbaa5.css.map": "/routersix/static/css/main.c15cbaa5.css.map",
+    "main.f0f5207d.js.map": "/routersix/static/js/main.f0f5207d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c15cbaa5.css",
+    "static/js/main.f0f5207d.js"
+  ]
+}
